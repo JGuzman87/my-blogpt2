@@ -1,0 +1,21 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: auto;
+    margin-left: 55%;
+    margin-top: 250px;
+    gap: 30px;
+    border: 1px solid black;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    gap: 30px;
+    
+}
