@@ -7,7 +7,22 @@ form {
     margin-left: 55%;
     margin-top: 250px;
     gap: 30px;
-    background-color: aqua;
+   
+}
+
+input {
+width: 500px;
+
+}  
+
+button {
+    width: 500px;
+    
+}
+
+
+#content {
+    height: 50px;
 }
 
 

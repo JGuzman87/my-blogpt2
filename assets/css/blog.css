@@ -1,8 +1,6 @@
-body {
+header {
     display: flex;
-    justify-content: center;
-    background-color: aquamarine;
-    
+    justify-content: flex-end;
 }
 
 .blog-post {
@@ -10,8 +8,8 @@ body {
     justify-content: center;
     flex-direction: column;
     background-color: aliceblue;
-    width: 500px;
-    height: 500px;
+    width: 100%;
+    height: 150px;
 }
 
 h2 {
@@ -19,3 +17,10 @@ h2 {
     height: 10px;
 
 }
+
+#back-btn {
+font-size: 20px;
+width: 80px;
+
+}
+
