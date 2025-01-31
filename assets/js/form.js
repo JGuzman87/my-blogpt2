@@ -1,27 +1,26 @@
-const userName = document.getElementById('username');
-const title = document.getElementById('title');
-const content = document.getElementById('content');
-const submitBtn = document.getElementById('submit');
+document.addEventListener("DOMContentLoaded", function () {
+  const userName = document.getElementById("username");
+  const title = document.getElementById("title");
+  const content = document.getElementById("content");
+  const submitBtn = document.getElementById("submit");
 
-function storeBlog() {
-  const blogPost = {
-    username: userName.value,
-    title: title.value,
-    content: content.value,
-  };
+  function storeBlog() {
+    const blogPost = {
+      username: userName.value,
+      title: title.value,
+      content: content.value,
+    };
 
-  localStorage.setItem('blogPost', JSON.stringify(blogPost));
-}
+    localStorage.setItem("blogPost", JSON.stringify(blogPost));
 
-function renderBlog() {
+    // Redirect to the blog page
+    window.location.href = "blog.html";
+  }
 
-}
-
-
-// localStorage.getItem()
-
-submitBtn.addEventListener('click', function (event) {
-    event.preventDefault();
-    storeBlog();
-    console.log('it works')
-})
+ 
+    submitBtn.addEventListener("click", function (event) {
+      event.preventDefault();
+      storeBlog();
+    });
+  
+});
