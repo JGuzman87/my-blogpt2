@@ -1,6 +1,17 @@
 header {
     display: flex;
     justify-content: flex-end;
+    gap: 10px;
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
 }
 
 .blog-post {
@@ -21,6 +32,12 @@ h2 {
 #back-btn {
 font-size: 20px;
 width: 80px;
+}
 
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border: 3px solid black;
 }
 

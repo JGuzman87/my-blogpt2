@@ -1,4 +1,5 @@
-const backBtn = document.querySelector("#back-btn")
+const backBtn = document.querySelector("#back-btn");
+const modeBtn = document.querySelector("#mode-btn");
 
 document.addEventListener("DOMContentLoaded", function () {
   function renderBlog() {
@@ -17,4 +18,9 @@ document.addEventListener("DOMContentLoaded", function () {
 backBtn.addEventListener('click', () => {
   window.location.href = "index.html";
   console.log('it works');
-}) 
+});
+
+modeBtn.addEventListener('click', () => {
+  document.body.classList.toggle('dark-mode');
+  document.footer.classList.toggle('dark-mode');
+});
