@@ -2,6 +2,8 @@ header {
     display: flex;
     justify-content: flex-end;
     gap: 10px;
+    border-bottom: 1px solid black;
+    padding: 5px;
 }
 
 body {
@@ -18,16 +20,14 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: aliceblue;
-    width: 100%;
+    margin-top: 10px;
+    width: 90%;
     height: 150px;
+    border: 1px solid black;
+    padding: 10px;
 }
 
-h2 {
-    width: auto;
-    height: 10px;
 
-}
 
 #back-btn {
 font-size: 20px;
@@ -37,7 +37,17 @@ width: 80px;
 footer {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-    border: 3px solid black;
+    border-top: 3px solid black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#saved-title {
+    border-bottom: 1px solid black;
+    font-weight: bold;
 }
 

@@ -20,12 +20,10 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
     width: 600px;
-    height: auto;
     margin-left: 55%;
-    margin-top: 250px;
-    gap: 30px;
+    margin-top: 245px;
+    gap: 28px;
    
 }
 
@@ -41,6 +39,7 @@ label {
 
 #submit {
     width: 100%;
+    margin-bottom: 5px;
     background-color: black;
     color: white;
     
@@ -58,7 +57,7 @@ footer {
     display: flex;
     justify-content: center;
     border-top: 3px solid black;
-    margin-top: 20px;
+    
 }
 
 #mode-btn {
@@ -71,13 +70,14 @@ footer {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 50%;
+    top: 45%;
     border-radius: 50%;
     background-color: goldenrod;
     width:500px;
     height:500px;
     color:white;
     font-size: 30px;
+   
 }
 
 h1 {
